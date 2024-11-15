@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: green;
+    color: black;
+}
+
+.topic {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+}
+
+.navbar li {
+	margin: 0 15px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: blue;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: darkgreen;
+    list-style: none;
+    min-width: 100px;
+}
+
+.dropdown-menu li {
+    text-align: left;
+}
+
+.dropdown-menu a {
+    color: white;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: orange;
+    border-radius: 5px; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.introduction {
+    background-color: yellow;
+    margin: auto;
+    max-width: 600px;
+}
+
+.introduction h1 {
+    text-align: center;
+}
+
+.introduction p {
+    margin-bottom: 10px;
+}
